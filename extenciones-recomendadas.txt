@@ -1,0 +1,8 @@
+Son para visualizar las bd
+
+Esta es de postgreSQL, chulada :-)
+https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-pgsql 
+
+
+DBeaver Simulation
+https://marketplace.visualstudio.com/items?itemName=LinJun.dbeaver-support

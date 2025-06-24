@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    ### local apps ###
+    'api',
+
+    ### Third apps ###
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -74,10 +79,25 @@ WSGI_APPLICATION = 'v1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'agreenculture',
+        'USER': 'ellobot',
+        'PASSWORD': 'fatima123',
+        'HOST': 'localhost', # o la IP de tu servidor
+        'PORT': '5432',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'agreenculture',
+#         'USER': 'nombre_de_usuario',
+#         'PASSWORD': 'contraseña',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
 
 
 # Password validation

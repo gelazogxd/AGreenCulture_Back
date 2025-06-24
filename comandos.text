@@ -1,0 +1,21 @@
+sudo apt install postgresql postgresql-contrib  -instala postgresql para python
+
+pip install psycopg2 --instala algo para postgrest
+pip install psycopg2-binary --Es lo mismo que la de arriba pero es mas de para realizar pruebas, lei y dicen que esta mejor la de arriba, escojan sabiamente
+
+pip install django-restframework --sirve para hacer las apisWEB
+pip install djangorestframework --la neta creo que es lo mismo que la de arriba hay checan cual jala
+
+--pip freeze --sirve para ver que librerias tienes instalado por medio de pip
+
+
+
+python manage.py startapp mi_app --sirve para crear apps
+
+
+
+
+
+otras de la clase del profe
+
+pip install pillow --sirve como editor de imagenes
