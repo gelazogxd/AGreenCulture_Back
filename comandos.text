@@ -13,7 +13,13 @@ pip install djangorestframework --la neta creo que es lo mismo que la de arriba 
 python manage.py startapp mi_app --sirve para crear apps
 
 
+pip install virtualenv --instalar venv si no lo tienes
 
+python -m venv venv --crear la carpeta de venv
+
+source venv/bin/activate --activar tu entorno virtual
+
+python manage.py runserve --corre el server
 
 
 otras de la clase del profe
